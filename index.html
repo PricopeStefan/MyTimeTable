@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/index.css" />
+
+	<script src="js/index.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+	<div id="mainHolder">
+		<div id="type" class="container-fluid">
+			<div class="btn-group button-row">
+				<input type="button" class="btn btn-primary btn-md col-6 active" value="Student">
+				<input type="button" class="btn btn-primary btn-md col-6 active" value="Profesor" disabled>
+			</div>
+		</div>
+
+		<div id="profile" class="container-fluid optionsContainer">
+			<span>Profil</span>
+			<hr />
+		</div>
+
+		<div id="language" class="container-fluid optionsContainer">
+			<span>Limba</span>
+			<hr />
+		</div>
+
+		<div id="year" class="container-fluid optionsContainer">
+			<span>Anul</span>
+			<hr />
+
+		</div>
+
+		<div id="group" class="container-fluid optionsContainer">
+			<span>Grupa</span>
+			<hr />
+			
+		</div>
+
+		<div id="submit">
+			<a href="#schedule"><input id="submitButton" onclick="showTimeTable()" type="submit" class="btn btn-primary btn-lg col-12 active" value="Show me" disabled="true"></a>
+		</div>
+
+	</div>
+
+	<div id="schedule"></div>
+</body>

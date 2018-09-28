@@ -1,0 +1,114 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #453C3C;
+}
+
+#mainHolder {
+	width: 100%;
+	margin-top: 70px !important;
+}
+
+
+#type {
+	width: 90%;
+	margin-left: 5% !important;
+	padding: 0;
+}
+
+#type button {
+	width: 50%;
+}
+
+.optionsContainer {
+	width: 90%;
+	margin-left: 5% !important;
+	margin-top: 40px !important;
+	background-color: white;
+	padding-bottom: 15px;
+}
+
+.optionsContainer span {
+	/*margin-left: 10px;*/
+	font-family: Terminal, monospace !important;
+	font-size: 25px !important;
+}
+
+.optionsContainer hr {
+	margin-top: 5px;
+	background-color: black;
+}
+
+.button-row {
+	width: 100% !important;
+	padding: 0 !important;
+	margin: 0 auto !important;
+}
+
+.btn {
+	border: 1px solid black;
+	border-radius: 0;
+	height: 45px;
+}
+
+#submit {
+	margin-top: 30px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+#schedule {
+	display: none;
+	width: 100%;
+	height: 100vh;
+	margin-top: 30px;
+}
+
+#scheduleTable {
+	width: 100%;
+}
+
+#scheduleTable tr, td {
+	border: 1px solid black;
+	width: auto;
+}
+
+.Luni {
+	background-color: #FFC9C8;
+}
+
+.after_Luni {
+	background-color: #FF918E;
+}
+
+.Marti {
+	background-color: #CAFE8E;
+}
+
+.after_Marti {
+	background-color: #A2FC3A;
+}
+
+.Miercuri {
+	background-color: #FFD78E;
+}
+
+.after_Miercuri {
+	background-color: #FFB93A;
+}
+
+.Joi {
+	background-color: #8DFCFC;
+}
+
+.after_Joi {
+	background-color: #12DDDD;	
+}
+
+.Vineri {
+	background-color: #E2CCFE;
+}
+
+.after_Vineri {
+	background-color: #C296FD;
+}
